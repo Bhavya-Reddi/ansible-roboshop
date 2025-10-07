@@ -6,11 +6,11 @@
     sg_id: sg-0220111a6044e051a # replace with your SG ID
     zone_id: "Z01073672KN62W8KE0BU0" # replace with your ID
     domain_name: "satyabhavya.store"
-    instances: 
-    - mongodb
-    - redis
-    - mysql
-    - rabbitmq    
+    # instances: 
+    # - mongodb
+    # - redis
+    # - mysql
+    # - rabbitmq    
   tasks:
   - name: create ec2 instance
     amazon.aws.ec2_instance:
