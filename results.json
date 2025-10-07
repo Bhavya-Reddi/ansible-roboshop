@@ -1,0 +1,22 @@
+{
+        "changed": true,
+        "cmd": [
+            "mongosh",
+            "mongodb.satyabhavya.store",
+            "--quiet",
+            "--eval",
+            "db.getMongo().getDBNames().indexOf('catalogue')"
+        ],
+        "delta": "0:00:00.949372",
+        "end": "2025-10-07 10:55:30.946256",
+        "failed": false,
+        "msg": "",
+        "rc": 0,
+        "start": "2025-10-07 10:55:29.996884",
+        "stderr": "",
+        "stderr_lines": [],
+        "stdout": "1",
+        "stdout_lines": [
+            "1"
+        ]
+    }
